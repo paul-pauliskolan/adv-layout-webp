@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- https://fontawesome.com/v6.0/icons -->
+
+
+
+<head>
+  <meta charset="utf-8">
+  <title>the Lorem Ipsum</title>
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Daily Digital Newspaper">
+</head>
+
+<body>
+  <header>
+    <h1>the Lorem Ipsum - Contact</h1>
+    <nav>
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Headlines</a>
+      <a href="#">Local</a>
+      <a href="#">Weather</a>
+      <a href="#">Sports</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Please fill in information</h2>
+    <!--<section class="top">-->
+    <section>
+      <!--
+      input: Checkbox
+      <input>: Number Type
+      <input> Element
+      <input>: Range Type
+      <input>: Text Type
+      <select> Element
+      <datalist> Element
+      <input>: Radio Button Type
+      textarea
+      Submitting a Form
+      <label> Element
+      <input> name Attribute
+      In order for a form to send data, it needs to be able to put it into key-value pairs. This is achieved by setting the name attribute of the input element. The name will become the key and the value of the input will become the value
+      HTML Form Validators
+      required Attribute
+
+      -->
+      <form class="" action="sent.html" method="post">
+        <label for="firstname">First name</label>
+        <input type="text" id="firstname">
+        <!--name="" value=""-->
+        <label for="lastname">Last name</label>
+        <input type="text" id="lastname">
+
+        <label for="email">Email</label>
+        <input type="text" id="email">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" placeholder="Write something.."></textarea>
+
+
+        <legend>Favorite objects</legend>
+        <label for="galaxy">Galaxy</label>
+        <input type="checkbox" name="galaxy" value="Galaxies" id="galaxy">
+        <label for="planet">Planet</label>
+        <input type="checkbox" name="planet" value="Planet" id="planet">
+        <label for="star">Star</label>
+        <input type="checkbox" name="star" value="Star" id="star">
+
+        <legend>Visit first</legend>
+        <label for="mars">Mars</label>
+        <input type="radio" name="favorite" value="Mars" id="mars">
+        <label for="venus">Venus</label>
+        <input type="radio" name="favorite" value="Venus" id="venus">
+
+        <button type="submit">Send</button>
+
+      </form>
+
+
+    </section>
+
+    <!--</section>-->
+
+    <h2>Weather</h2>
+    <section class="bottom">
+
+      <img src="weather-symbols/sun.svg" alt="Sun">
+      <img src="weather-symbols/rain.svg" alt="Rain">
+      <img src="weather-symbols/cloudy.svg" alt="Cloudy">
+      <img src="weather-symbols/half-cloudy.svg" alt="Half Cloudy">
+      <img src="weather-symbols/lightning.svg" alt="Lightning">
+
+    </section>
+  </main>
+  <footer>
+    <a href="#">Contact</a>
+    <a href="#">Jobs</a>
+    <span>&copy; 2021 lorem inc.</span>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+/*
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
+*/
+section.top {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) {
+  section.top {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+h1, h2, nav, footer, article {
+  /*margin: 2px;*/
+  padding: 1vh 1vw;
+}
+
+h1, nav, footer {
+  text-align: center;
+}
+
+body {
+  background-color: hsla(100, 80%, 90%, 1);
+  font-family: Lora, serif;
+  margin-left: 1vw;
+}
+
+h1, h2, h3 {
+  font-family: Lora, sans-serif;
+}
+
+header {
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+nav {
+  /*background-color: hsla(90, 90%, 30%, .9);*/
+}
+
+main {
+  /*background-color: hsla(10, 60%, 50%, .9);*/
+}
+
+section {
+  /*background-color: hsla(120, 60%, 50%, .9);*/
+}
+
+article {
+  /*background-color: hsla(270, 60%, 50%, .9);*/
+  text-align: justify;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-right: 1vw;
+}
+
+footer {
+  /*background-color: hsla(30, 80%, 50%, .9);*/
+}
+
+section.bottom img {
+  display: inline-block;
+}
+
+img.dalmatian {
+  /*float: left;
+  margin-right: 10px;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 3vh;
+}
+
+img.football {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 3vh;
+}
+
+a {
+  color: hsla(90, 50%, 30%, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  font-size: 2rem;
+  margin-left: 3vw;
+}
+
+section.bottom {
+  text-align: center;
+}
+
+footer {
+  font-size: 1.5rem;
+}
+
+aside {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+/* Form start */
+form {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 600px;
+}
+
+label {
+  margin: 1vh 1vw 0 1vw;
+}
+
+input, select, textarea {
+  margin: 0 1vw 0 1vw;
+}
+
+legend {
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  form {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  legend {
+    grid-column: 1;
+    text-align: right;
+  }
+
+  label {
+    grid-column: 1;
+    text-align: right;
+    margin: 1vh 1vw;
+  }
+
+  input, select, button {
+    grid-column: 2/-1;
+    margin: 1vh 1vw;
+  }
+}
+
+/* Form end */
